@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<hwTaskFlows xmlns="http://xmlns.oracle.com/bpel/workflow/hwTaskFlowProperties">
+   <ApplicationName>worklist</ApplicationName>
+   <LookupType>LOCAL</LookupType>
+   <TaskFlowDeploy>false</TaskFlowDeploy>
+   <TaskFlowServer>
+      <hostName/>
+      <httpPort/>
+      <httpsPort/>
+   </TaskFlowServer>
+<hwTaskFlow><WorkflowName>HTSimularFinanciamento</WorkflowName><TaskDefinitionNamespace>http://xmlns.oracle.com/AppTeoriaAgil/ProjectTeoriaAgil/HTSimularFinanciamento</TaskDefinitionNamespace><TaskFlowId>HTSimularFinanciamento_TaskFlow</TaskFlowId><TaskFlowFileName>WEB-INF/HTSimularFinanciamento_TaskFlow.xml</TaskFlowFileName></hwTaskFlow><hwTaskFlow><WorkflowName>SrvVerificarSpc</WorkflowName><TaskDefinitionNamespace>http://xmlns.oracle.com/AppTeoriaAgil/ProjectTeoriaAgil/SrvVerificarSpc</TaskDefinitionNamespace><TaskFlowId>SrvVerificarSpc_TaskFlow</TaskFlowId><TaskFlowFileName>WEB-INF/SrvVerificarSpc_TaskFlow.xml</TaskFlowFileName></hwTaskFlow><hwTaskFlow><WorkflowName>HtCadastrarCliente</WorkflowName><TaskDefinitionNamespace>http://xmlns.oracle.com/AppTeoriaAgil/ProjectTeoriaAgil/HtCadastrarCliente</TaskDefinitionNamespace><TaskFlowId>HtCadastrarCliente_TaskFlow</TaskFlowId><TaskFlowFileName>WEB-INF/HtCadastrarCliente_TaskFlow.xml</TaskFlowFileName></hwTaskFlow><hwTaskFlow><WorkflowName>SrvTransferirDinheiro</WorkflowName><TaskDefinitionNamespace>http://xmlns.oracle.com/AppTeoriaAgil/ProjectTeoriaAgil/SrvTransferirDinheiro</TaskDefinitionNamespace><TaskFlowId>SrvTransferirDinheiro_TaskFlow</TaskFlowId><TaskFlowFileName>WEB-INF/SrvTransferirDinheiro_TaskFlow.xml</TaskFlowFileName></hwTaskFlow><hwTaskFlow><WorkflowName>SrvNotificar</WorkflowName><TaskDefinitionNamespace>http://xmlns.oracle.com/AppTeoriaAgil/ProjectTeoriaAgil/SrvNotificar</TaskDefinitionNamespace><TaskFlowId>SrvNotificar_TaskFlow</TaskFlowId><TaskFlowFileName>WEB-INF/SrvNotificar_TaskFlow.xml</TaskFlowFileName></hwTaskFlow></hwTaskFlows>

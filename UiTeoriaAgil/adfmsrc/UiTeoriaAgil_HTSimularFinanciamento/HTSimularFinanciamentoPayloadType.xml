@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.61.92"
+          id="HTSimularFinanciamentoPayloadType"
+          Package="UiTeoriaAgil_HTSimularFinanciamento"
+          BeanClass="UiTeoriaAgil_HTSimularFinanciamento.HTSimularFinanciamentoPayloadType"
+          isJavaBased="false">
+  <AccessorAttribute id="BoDadosProcesso" IsCollection="true"
+                     BeanClass="UiTeoriaAgil_HTSimularFinanciamento.BoDadosProcessoType"
+                     CollectionBeanClass="UiTeoriaAgil_HTSimularFinanciamento.BoDadosProcessoType_BoDadosProcesso_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Bo Dados Processo"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="BoDadosProcesso"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpm/bpmobject/Data/BoDadosProcesso"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

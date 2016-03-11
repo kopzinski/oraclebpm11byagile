@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <view id="Empty1_jspx">
+    <page id="__1">/Empty1.jspx</page>
+  </view>
+  <control-flow-rule id="__2">
+    <from-activity-id id="__3">*</from-activity-id>
+    <control-flow-case id="__4">
+      <from-outcome id="__5">done</from-outcome>
+      <to-activity-id id="__6">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+    <control-flow-case id="__7">
+      <from-outcome id="__8">refresh</from-outcome>
+      <to-activity-id id="__9">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+  </control-flow-rule>
+  <control-flow-rule id="__10">
+    <from-activity-id id="__11">*</from-activity-id>
+    <control-flow-case id="__12">
+      <from-outcome id="__13">done</from-outcome>
+      <to-activity-id id="__14">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+    <control-flow-case id="__15">
+      <from-outcome id="__16">refresh</from-outcome>
+      <to-activity-id id="__17">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+  </control-flow-rule>
+  <control-flow-rule id="__18">
+    <from-activity-id id="__19">*</from-activity-id>
+    <control-flow-case id="__20">
+      <from-outcome id="__21">done</from-outcome>
+      <to-activity-id id="__22">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+    <control-flow-case id="__23">
+      <from-outcome id="__24">refresh</from-outcome>
+      <to-activity-id id="__25">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+  </control-flow-rule>
+  <control-flow-rule id="__26">
+    <from-activity-id id="__27">*</from-activity-id>
+    <control-flow-case id="__28">
+      <from-outcome id="__29">done</from-outcome>
+      <to-activity-id id="__30">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+    <control-flow-case id="__31">
+      <from-outcome id="__32">refresh</from-outcome>
+      <to-activity-id id="__33">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+  </control-flow-rule>
+  <control-flow-rule id="__34">
+    <from-activity-id id="__35">*</from-activity-id>
+    <control-flow-case id="__36">
+      <from-outcome id="__37">done</from-outcome>
+      <to-activity-id id="__38">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+    <control-flow-case id="__39">
+      <from-outcome id="__40">refresh</from-outcome>
+      <to-activity-id id="__41">Empty1_jspx</to-activity-id>
+    </control-flow-case>
+  </control-flow-rule>
+</adfc-config>

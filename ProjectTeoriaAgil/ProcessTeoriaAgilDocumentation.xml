@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="11.1.1.6.0.15.53" fileRevision="20110706"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+    <component name="ProcessTeoriaAgil">
+        <topicDocumentations>
+            <topicDocumentation name="ProcessTeoriaAgil">
+                <descriptions>
+                    <description locale="en">ProcessTeoriaAgil</description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="START_EVENT15604288378544">
+                <labels>
+                    <label locale="en">Start</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="END_EVENT15604288378578">
+                <labels>
+                    <label locale="en">End</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY15604554811224">
+                <labels>
+                    <label locale="en">Simular Financiamento</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY15604556329251">
+                <labels>
+                    <label locale="en">[srv] Verificar SPC</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EXCLUSIVE_GATEWAY15604558018831">
+                <labels>
+                    <label locale="en">Ok?</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY15604559703429">
+                <labels>
+                    <label locale="en">Cadastrar Cliente</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY15604563083844">
+                <labels>
+                    <label locale="en">[srv] Transferir Dinheiro</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ABSTRACT_ACTIVITY15604565234368">
+                <labels>
+                    <label locale="en">[srv] Notificar</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="END_EVENT15604568027097">
+                <labels>
+                    <label locale="en">End1</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EXCLUSIVE_GATEWAY15611136983112">
+                <labels>
+                    <label locale="en">Aprovação Cliente</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EXCLUSIVE_GATEWAY15611156260351">
+                <labels>
+                    <label locale="en">sucesso</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf78"/>
+            <topicDocumentation name="sf81"/>
+            <topicDocumentation name="sf82"/>
+            <topicDocumentation name="sf83">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf84"/>
+            <topicDocumentation name="sf85"/>
+            <topicDocumentation name="sf88">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf91"/>
+            <topicDocumentation name="sf209">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf211">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf212">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf214">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+        </topicDocumentations>
+    </component>
+</processDocumentation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.61.92" id="DataBindings" SeparateXMLFiles="false"
+             Package="uiteoriaagil" ClientType="Generic">
+  <pageMap>
+    <page path="/taskDetails1.jspx" usageId="uiteoriaagil_taskDetails1PageDef"/>
+    <page path="/taskDetails2.jspx" usageId="uiteoriaagil_taskDetails2PageDef"/>
+    <page path="/taskDetails3.jspx" usageId="uiteoriaagil_taskDetails3PageDef"/>
+    <page path="/taskDetails4.jspx" usageId="uiteoriaagil_taskDetails4PageDef"/>
+    <page path="/taskDetails5.jspx" usageId="uiteoriaagil_taskDetails5PageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="uiteoriaagil_taskDetails1PageDef"
+          path="uiteoriaagil.pageDefs.taskDetails1PageDef"/>
+    <page id="uiteoriaagil_taskDetails2PageDef"
+          path="uiteoriaagil.pageDefs.taskDetails2PageDef"/>
+    <page id="uiteoriaagil_taskDetails3PageDef"
+          path="uiteoriaagil.pageDefs.taskDetails3PageDef"/>
+    <page id="uiteoriaagil_taskDetails4PageDef"
+          path="uiteoriaagil.pageDefs.taskDetails4PageDef"/>
+    <page id="uiteoriaagil_taskDetails5PageDef"
+          path="uiteoriaagil.pageDefs.taskDetails5PageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="UiTeoriaAgil_SrvNotificar"
+        path="uiteoriaagil.UiTeoriaAgil_SrvNotificar"/>
+    <dc id="UiTeoriaAgil_SrvTransferirDinheiro"
+        path="uiteoriaagil.UiTeoriaAgil_SrvTransferirDinheiro"/>
+    <dc id="UiTeoriaAgil_HtCadastrarCliente"
+        path="uiteoriaagil.UiTeoriaAgil_HtCadastrarCliente"/>
+    <dc id="UiTeoriaAgil_SrvVerificarSpc"
+        path="uiteoriaagil.UiTeoriaAgil_SrvVerificarSpc"/>
+    <dc id="UiTeoriaAgil_HTSimularFinanciamento"
+        path="uiteoriaagil.UiTeoriaAgil_HTSimularFinanciamento"/>
+  </dataControlUsages>
+</Application>

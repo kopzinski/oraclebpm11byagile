@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.61.92"
+          id="SrvVerificarSpcPayloadType" Package="UiTeoriaAgil_SrvVerificarSpc"
+          BeanClass="UiTeoriaAgil_SrvVerificarSpc.SrvVerificarSpcPayloadType"
+          isJavaBased="false">
+  <AccessorAttribute id="BoDadosProcesso" IsCollection="true"
+                     BeanClass="UiTeoriaAgil_SrvVerificarSpc.BoDadosProcessoType"
+                     CollectionBeanClass="UiTeoriaAgil_SrvVerificarSpc.BoDadosProcessoType_BoDadosProcesso_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Bo Dados Processo"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="BoDadosProcesso"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpm/bpmobject/Data/BoDadosProcesso"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

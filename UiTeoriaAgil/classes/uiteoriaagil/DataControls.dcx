@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataControlConfigs xmlns="http://xmlns.oracle.com/adfm/configuration"
+                    version="11.1.1.61.92" id="DataControls"
+                    Package="uiteoriaagil">
+  <AdapterDataControl id="UiTeoriaAgil_HTSimularFinanciamento"
+                      FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.bpel.services.datacontrol.XSDDataControlDefinition"
+                      SupportsTransactions="true" SupportsSortCollection="false"
+                      SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="false"
+                      Definition="UiTeoriaAgil_HTSimularFinanciamento"
+                      BeanClass="UiTeoriaAgil_HTSimularFinanciamento"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <Source>
+      <XSDDataControl xmlns="http://xmlns.oracle.com/bpel/workflow/task"
+                      SchemaLocation="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/xsd/HTSimularFinanciamentoWorkflowTask.xsd"
+                      RootElement="task"
+                      rootelementnamespace="http://xmlns.oracle.com/bpel/workflow/task"
+                      taskLoc="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/HTSimularFinanciamento.task"
+                      InitiationTask="false"
+                      DocumentStoreConfiguration="false"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="UiTeoriaAgil_SrvVerificarSpc"
+                      FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.bpel.services.datacontrol.XSDDataControlDefinition"
+                      SupportsTransactions="true" SupportsSortCollection="false"
+                      SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="false"
+                      Definition="UiTeoriaAgil_SrvVerificarSpc"
+                      BeanClass="UiTeoriaAgil_SrvVerificarSpc"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <Source>
+      <XSDDataControl xmlns="http://xmlns.oracle.com/bpel/workflow/task"
+                      SchemaLocation="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/xsd/SrvVerificarSpcWorkflowTask.xsd"
+                      RootElement="task"
+                      rootelementnamespace="http://xmlns.oracle.com/bpel/workflow/task"
+                      taskLoc="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/SrvVerificarSpc.task"
+                      InitiationTask="false"
+                      DocumentStoreConfiguration="false"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="UiTeoriaAgil_HtCadastrarCliente"
+                      FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.bpel.services.datacontrol.XSDDataControlDefinition"
+                      SupportsTransactions="true" SupportsSortCollection="false"
+                      SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="false"
+                      Definition="UiTeoriaAgil_HtCadastrarCliente"
+                      BeanClass="UiTeoriaAgil_HtCadastrarCliente"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <Source>
+      <XSDDataControl xmlns="http://xmlns.oracle.com/bpel/workflow/task"
+                      SchemaLocation="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/xsd/HtCadastrarClienteWorkflowTask.xsd"
+                      RootElement="task"
+                      rootelementnamespace="http://xmlns.oracle.com/bpel/workflow/task"
+                      taskLoc="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/HtCadastrarCliente.task"
+                      InitiationTask="false"
+                      DocumentStoreConfiguration="false"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="UiTeoriaAgil_SrvTransferirDinheiro"
+                      FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.bpel.services.datacontrol.XSDDataControlDefinition"
+                      SupportsTransactions="true" SupportsSortCollection="false"
+                      SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="false"
+                      Definition="UiTeoriaAgil_SrvTransferirDinheiro"
+                      BeanClass="UiTeoriaAgil_SrvTransferirDinheiro"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <Source>
+      <XSDDataControl xmlns="http://xmlns.oracle.com/bpel/workflow/task"
+                      SchemaLocation="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/xsd/SrvTransferirDinheiroWorkflowTask.xsd"
+                      RootElement="task"
+                      rootelementnamespace="http://xmlns.oracle.com/bpel/workflow/task"
+                      taskLoc="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/SrvTransferirDinheiro.task"
+                      InitiationTask="false"
+                      DocumentStoreConfiguration="false"/>
+    </Source>
+  </AdapterDataControl>
+  <AdapterDataControl id="UiTeoriaAgil_SrvNotificar"
+                      FactoryClass="oracle.adf.model.adapter.DataControlFactoryImpl"
+                      ImplDef="oracle.bpel.services.datacontrol.XSDDataControlDefinition"
+                      SupportsTransactions="true" SupportsSortCollection="false"
+                      SupportsResetState="false" SupportsRangesize="false"
+                      SupportsFindMode="false" SupportsUpdates="false"
+                      Definition="UiTeoriaAgil_SrvNotificar"
+                      BeanClass="UiTeoriaAgil_SrvNotificar"
+                      xmlns="http://xmlns.oracle.com/adfm/datacontrol">
+    <Source>
+      <XSDDataControl xmlns="http://xmlns.oracle.com/bpel/workflow/task"
+                      SchemaLocation="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/xsd/SrvNotificarWorkflowTask.xsd"
+                      RootElement="task"
+                      rootelementnamespace="http://xmlns.oracle.com/bpel/workflow/task"
+                      taskLoc="file:/F:/1910/SicRepo/PROCCON/05-construcao/AppTeoriaAgil/ProjectTeoriaAgil/SrvNotificar.task"
+                      InitiationTask="false"
+                      DocumentStoreConfiguration="false"/>
+    </Source>
+  </AdapterDataControl>
+</DataControlConfigs>
